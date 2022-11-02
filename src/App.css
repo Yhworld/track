@@ -1,0 +1,138 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Sidebar {
+  height: 100vh;
+  width: 350px;
+  background-color: #393944;
+  padding-top: 10%;
+  color: #fff;
+}
+
+.Sidelist {
+  width: 100%;
+  padding: 0;
+}
+
+.siderow {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ccc;
+}
+
+#icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+#title{
+  flex: 70%;
+}
+
+main {
+  width: 100%;
+  padding: 15px;
+  background: #faebd747;
+}
+
+.Container {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  background: #FF725E;
+  color: #fff
+}
+
+.hoe {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  line-height: 3;
+}
+
+button#primary-btn {
+  background: #FF725E;
+  border: transparent;
+  line-height: 2.5;
+}
+
+button#logout-primary {
+  background: #FF725E;
+  border: none;
+}
+
+button#logout-secondary {
+  background: transparent;
+  border: solid 1px #FF725E;
+  color: black;
+}
+
+.t-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 100px;
+}
+
+.headerimage img {
+  width: 600px;
+}
+
+h2.header {
+  margin-bottom: 32px;
+}
+
+.log {
+  line-height: 2.5;
+}
+
+button#secondary {
+  border: none;
+  background: none;
+  color: #FF725E;
+}
+
+p.login-link {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+div#cardid {
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+button#btnlog {
+  background: none;
+  border: solid 0px;
+}
+
+.btnlogout {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+  padding-right: 30%;
+  gap: 2;
+  color: #ccc;
+  gap: 39px;
+}
